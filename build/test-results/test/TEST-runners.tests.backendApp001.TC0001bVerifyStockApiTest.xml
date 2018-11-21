@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="runners.tests.backendApp001.TC0001bVerifyStockApiTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-11-21T09:55:56" hostname="ECS0821.local" time="3.216">
+  <properties/>
+  <testcase name="stockApiReturnsValidStockCompanyDescription" classname="runners.tests.backendApp001.TC0001bVerifyStockApiTest" time="2.402"/>
+  <testcase name="stockApiReturnsValidStockCompanyName" classname="runners.tests.backendApp001.TC0001bVerifyStockApiTest" time="0.813"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO net.serenitybdd.core.Serenity - Test Suite Started: Tc0001b verify stock api test
+[Test worker] INFO net.serenitybdd.core.Serenity - 
+  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+ |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+   | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+   |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                   
+
+TEST STARTED: stockApiReturnsValidStockCompanyDescription
+--------------------------------------------------------------------
+[Test worker] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 2
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ReflectionDispatch
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ReflectionDispatch
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ContextClassLoaderDispatch
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: com.sun.proxy.$Proxy2
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.worker.TestWorker
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ReflectionDispatch
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ReflectionDispatch
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.remote.internal.hub.MessageHub$Handler
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.concurrent.ManagedExecutorImpl$1
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable
+[Test worker] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: TC0001bVerifyStockApiTest.stockApiReturnsValidStockCompanyDescription - searchStockBySymbol
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ReflectionDispatch
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ReflectionDispatch
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ContextClassLoaderDispatch
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: com.sun.proxy.$Proxy2
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.worker.TestWorker
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ReflectionDispatch
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ReflectionDispatch
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.remote.internal.hub.MessageHub$Handler
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.concurrent.ManagedExecutorImpl$1
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable
+[Test worker] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: searchStockBySymbol
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ReflectionDispatch
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ReflectionDispatch
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ContextClassLoaderDispatch
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: com.sun.proxy.$Proxy2
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.worker.TestWorker
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ReflectionDispatch
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ReflectionDispatch
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.remote.internal.hub.MessageHub$Handler
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.concurrent.ManagedExecutorImpl$1
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable
+[Test worker] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: TC0001bVerifyStockApiTest.stockApiReturnsValidStockCompanyDescription - verifyResponseCode
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ReflectionDispatch
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ReflectionDispatch
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ContextClassLoaderDispatch
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: com.sun.proxy.$Proxy2
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.worker.TestWorker
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ReflectionDispatch
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ReflectionDispatch
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.remote.internal.hub.MessageHub$Handler
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.concurrent.ManagedExecutorImpl$1
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable
+[Test worker] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: verifyResponseCode
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ReflectionDispatch
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ReflectionDispatch
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ContextClassLoaderDispatch
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: com.sun.proxy.$Proxy2
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.worker.TestWorker
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ReflectionDispatch
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ReflectionDispatch
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.remote.internal.hub.MessageHub$Handler
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.concurrent.ManagedExecutorImpl$1
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable
+[Test worker] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: TC0001bVerifyStockApiTest.stockApiReturnsValidStockCompanyDescription - shouldReturnCorrectData
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ReflectionDispatch
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ReflectionDispatch
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ContextClassLoaderDispatch
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: com.sun.proxy.$Proxy2
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.worker.TestWorker
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ReflectionDispatch
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ReflectionDispatch
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.remote.internal.hub.MessageHub$Handler
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.concurrent.ManagedExecutorImpl$1
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable
+[Test worker] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: shouldReturnCorrectData
+[Test worker] INFO net.serenitybdd.core.Serenity - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Stock api returns valid stock company description
+----------------------------------------------------------------------------
+[Test worker] INFO net.serenitybdd.core.Serenity - Test Suite Started: Tc0001b verify stock api test
+[Test worker] INFO net.serenitybdd.core.Serenity - 
+  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+ |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+   | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+   |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                   
+
+TEST STARTED: stockApiReturnsValidStockCompanyName
+--------------------------------------------------------------------
+[Test worker] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 3
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ReflectionDispatch
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ReflectionDispatch
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ContextClassLoaderDispatch
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: com.sun.proxy.$Proxy2
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.worker.TestWorker
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ReflectionDispatch
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ReflectionDispatch
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.remote.internal.hub.MessageHub$Handler
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.concurrent.ManagedExecutorImpl$1
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable
+[Test worker] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: TC0001bVerifyStockApiTest.stockApiReturnsValidStockCompanyName - searchStockBySymbol
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ReflectionDispatch
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ReflectionDispatch
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ContextClassLoaderDispatch
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: com.sun.proxy.$Proxy2
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.worker.TestWorker
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ReflectionDispatch
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ReflectionDispatch
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.remote.internal.hub.MessageHub$Handler
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.concurrent.ManagedExecutorImpl$1
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable
+[Test worker] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: searchStockBySymbol
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ReflectionDispatch
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ReflectionDispatch
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ContextClassLoaderDispatch
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: com.sun.proxy.$Proxy2
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.worker.TestWorker
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ReflectionDispatch
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ReflectionDispatch
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.remote.internal.hub.MessageHub$Handler
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.concurrent.ManagedExecutorImpl$1
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable
+[Test worker] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: TC0001bVerifyStockApiTest.stockApiReturnsValidStockCompanyName - verifyResponseCode
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ReflectionDispatch
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ReflectionDispatch
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ContextClassLoaderDispatch
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: com.sun.proxy.$Proxy2
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.worker.TestWorker
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ReflectionDispatch
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ReflectionDispatch
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.remote.internal.hub.MessageHub$Handler
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.concurrent.ManagedExecutorImpl$1
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable
+[Test worker] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: verifyResponseCode
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ReflectionDispatch
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ReflectionDispatch
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ContextClassLoaderDispatch
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: com.sun.proxy.$Proxy2
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.worker.TestWorker
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ReflectionDispatch
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ReflectionDispatch
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.remote.internal.hub.MessageHub$Handler
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.concurrent.ManagedExecutorImpl$1
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable
+[Test worker] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: TC0001bVerifyStockApiTest.stockApiReturnsValidStockCompanyName - shouldReturnCorrectData
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ReflectionDispatch
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ReflectionDispatch
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ContextClassLoaderDispatch
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: com.sun.proxy.$Proxy2
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.api.internal.tasks.testing.worker.TestWorker
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ReflectionDispatch
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.dispatch.ReflectionDispatch
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.remote.internal.hub.MessageHub$Handler
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.concurrent.ManagedExecutorImpl$1
+[Test worker] WARN net.thucydides.core.reflection.StackTraceAnalyser - Failed to load class during Stack analysis: org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable
+[Test worker] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: shouldReturnCorrectData
+[Test worker] INFO net.serenitybdd.core.Serenity - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Stock api returns valid stock company name
+----------------------------------------------------------------------------
+[Test worker] INFO net.thucydides.core.reports.ReportService - Reporting formats: [JSON, XML, HTML]
+[Test worker] INFO net.thucydides.core.reports.ReportService - Found reporter: net.thucydides.core.reports.xml.XMLTestOutcomeReporter@1df9a62a(format = Optional.of(XML))
+[Test worker] INFO net.thucydides.core.reports.ReportService - Registering reporter: net.thucydides.core.reports.xml.XMLTestOutcomeReporter@1df9a62a
+[Test worker] INFO net.thucydides.core.reports.ReportService - Found reporter: net.thucydides.core.reports.json.JSONTestOutcomeReporter@6a4e2508(format = Optional.of(JSON))
+[Test worker] INFO net.thucydides.core.reports.ReportService - Registering reporter: net.thucydides.core.reports.json.JSONTestOutcomeReporter@6a4e2508
+[Test worker] INFO net.thucydides.core.reports.ReportService - Found reporter: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@3f03da36(format = Optional.of(HTML))
+[Test worker] INFO net.thucydides.core.reports.ReportService - Registering reporter: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@3f03da36
+[Test worker] INFO net.thucydides.core.reports.ReportService - Generating reports using: net.thucydides.core.reports.xml.XMLTestOutcomeReporter@1df9a62a
+[Test worker] INFO net.thucydides.core.reports.junit.JUnitXMLOutcomeReporter - GENERATING JUNIT REPORTS
+[pool-1-thread-1] INFO net.thucydides.core.reports.ReportService - Processing test outcome Tc0001b verify stock api test:stockApiReturnsValidStockCompanyName
+[pool-1-thread-1] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.xml.XMLTestOutcomeReporter@1df9a62a: Generating report for test outcome: Tc0001b verify stock api test:stockApiReturnsValidStockCompanyName
+[pool-1-thread-4] INFO net.thucydides.core.reports.ReportService - Processing test outcome Tc0001b verify stock api test:stockApiReturnsValidStockCompanyDescription
+[Test worker] INFO net.thucydides.core.reports.junit.JUnitXMLOutcomeReporter - GENERATING JUNIT REPORT SERENITY-JUNIT-9fe2febe0b064e806091a0060178f3563e1bfe67cc2719fec53220f3c400b7b3.xml
+[pool-1-thread-4] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.xml.XMLTestOutcomeReporter@1df9a62a: Generating report for test outcome: Tc0001b verify stock api test:stockApiReturnsValidStockCompanyDescription
+[pool-1-thread-4] INFO net.thucydides.core.reports.xml.XMLTestOutcomeReporter - Generating XML report for Stock api returns valid stock company description to file /Users/jackbranch/Desktop/Projects/AuSerenityProject/target/site/serenity/9fe2febe0b064e806091a0060178f3563e1bfe67cc2719fec53220f3c400b7b3.xml
+[pool-1-thread-1] INFO net.thucydides.core.reports.xml.XMLTestOutcomeReporter - Generating XML report for Stock api returns valid stock company name to file /Users/jackbranch/Desktop/Projects/AuSerenityProject/target/site/serenity/078a57c44664131b3d9e5161ca798ec053edd95cde155ef24429aa0c483ed2ef.xml
+[pool-1-thread-4] INFO net.thucydides.core.reports.xml.XMLTestOutcomeReporter - XML report generated (/Users/jackbranch/Desktop/Projects/AuSerenityProject/target/site/serenity/9fe2febe0b064e806091a0060178f3563e1bfe67cc2719fec53220f3c400b7b3.xml bytes) 1360
+[pool-1-thread-1] INFO net.thucydides.core.reports.xml.XMLTestOutcomeReporter - XML report generated (/Users/jackbranch/Desktop/Projects/AuSerenityProject/target/site/serenity/078a57c44664131b3d9e5161ca798ec053edd95cde155ef24429aa0c483ed2ef.xml bytes) 1108
+[pool-1-thread-4] INFO net.thucydides.core.reports.ReportService - Processing test outcome Tc0001b verify stock api test:stockApiReturnsValidStockCompanyDescription done
+[pool-1-thread-1] INFO net.thucydides.core.reports.ReportService - Processing test outcome Tc0001b verify stock api test:stockApiReturnsValidStockCompanyName done
+[Test worker] INFO net.thucydides.core.reports.ReportService - Reports generated in: 55
+[Test worker] INFO net.thucydides.core.reports.ReportService - Generating reports using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@6a4e2508
+[Test worker] INFO net.thucydides.core.reports.junit.JUnitXMLOutcomeReporter - GENERATING JUNIT REPORTS
+[pool-1-thread-3] INFO net.thucydides.core.reports.ReportService - Processing test outcome Tc0001b verify stock api test:stockApiReturnsValidStockCompanyName
+[pool-1-thread-2] INFO net.thucydides.core.reports.ReportService - Processing test outcome Tc0001b verify stock api test:stockApiReturnsValidStockCompanyDescription
+[pool-1-thread-3] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@6a4e2508: Generating report for test outcome: Tc0001b verify stock api test:stockApiReturnsValidStockCompanyName
+[pool-1-thread-2] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@6a4e2508: Generating report for test outcome: Tc0001b verify stock api test:stockApiReturnsValidStockCompanyDescription
+[Test worker] INFO net.thucydides.core.reports.junit.JUnitXMLOutcomeReporter - GENERATING JUNIT REPORT SERENITY-JUNIT-9fe2febe0b064e806091a0060178f3563e1bfe67cc2719fec53220f3c400b7b3.xml
+[pool-1-thread-2] INFO net.thucydides.core.reports.ReportService - Processing test outcome Tc0001b verify stock api test:stockApiReturnsValidStockCompanyDescription done
+[pool-1-thread-3] INFO net.thucydides.core.reports.ReportService - Processing test outcome Tc0001b verify stock api test:stockApiReturnsValidStockCompanyName done
+[Test worker] INFO net.thucydides.core.reports.ReportService - Reports generated in: 55
+[Test worker] INFO net.thucydides.core.reports.ReportService - Generating reports using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@3f03da36
+[Test worker] INFO net.thucydides.core.reports.junit.JUnitXMLOutcomeReporter - GENERATING JUNIT REPORTS
+[pool-1-thread-4] INFO net.thucydides.core.reports.ReportService - Processing test outcome Tc0001b verify stock api test:stockApiReturnsValidStockCompanyDescription
+[pool-1-thread-1] INFO net.thucydides.core.reports.ReportService - Processing test outcome Tc0001b verify stock api test:stockApiReturnsValidStockCompanyName
+[pool-1-thread-4] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@3f03da36: Generating report for test outcome: Tc0001b verify stock api test:stockApiReturnsValidStockCompanyDescription
+[pool-1-thread-1] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@3f03da36: Generating report for test outcome: Tc0001b verify stock api test:stockApiReturnsValidStockCompanyName
+[Test worker] INFO net.thucydides.core.reports.junit.JUnitXMLOutcomeReporter - GENERATING JUNIT REPORT SERENITY-JUNIT-9fe2febe0b064e806091a0060178f3563e1bfe67cc2719fec53220f3c400b7b3.xml
+[pool-1-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Tc0001b verify stock api test:stockApiReturnsValidStockCompanyName => 078a57c44664131b3d9e5161ca798ec053edd95cde155ef24429aa0c483ed2ef.html
+[pool-1-thread-1] INFO net.thucydides.core.reports.ReportService - Processing test outcome Tc0001b verify stock api test:stockApiReturnsValidStockCompanyName done
+[pool-1-thread-4] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Tc0001b verify stock api test:stockApiReturnsValidStockCompanyDescription => 9fe2febe0b064e806091a0060178f3563e1bfe67cc2719fec53220f3c400b7b3.html
+[pool-1-thread-4] INFO net.thucydides.core.reports.ReportService - Processing test outcome Tc0001b verify stock api test:stockApiReturnsValidStockCompanyDescription done
+[Test worker] INFO net.thucydides.core.reports.ReportService - Reports generated in: 211
+]]></system-err>
+</testsuite>
